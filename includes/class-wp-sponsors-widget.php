@@ -30,6 +30,7 @@ class sponsors_widget extends WP_Widget {
                 <a href="<?php echo get_post_meta( get_the_ID(), 'wp_sponsors_url', true ) ?>" target="_blank">
                 <?php if($instance['check_images'] === "on"){ ?>
                   <img src="<?php echo get_post_meta( get_the_ID(), 'wp_sponsors_img', true ) ?>" alt="<?php the_title(); ?>">
+                  <h2><?php the_title(); ?></h2>
                 <?php } else { the_title(); } ?>
                 </a>
               </li>
