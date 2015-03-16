@@ -35,6 +35,10 @@ Ever had to add a bunch of images with links on them for your event/company part
 
 == Changelog ==
 
+= 1.1 =
+* Categories! You can now assign one or more categories to your sponsors and select a category in the widget
+* Better defauly list styling
+
 = 1.0.3=
 * Fixed a bug that caused only 5 items to display, now all items are shown
 
